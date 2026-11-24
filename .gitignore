@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+*.env.local
+
+# Data (raw may be large; keep processed)
+data/raw/*.json
+data/raw/*.csv
+data/processed/*.db
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# DB
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
